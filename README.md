@@ -27,11 +27,8 @@ See the file `sample_cardlist.txt` for an example of a list of cards (this is th
 
 By default the proxies will be generated in English. However, there are other languages available. In order to change it, you just have to edit the file `generator.sh` and change the line
 
-    ```
     language="eg"
-    ```
+
 to your desired languages. Available options are English (eg), German (de), Spanish (es), French (fr) and Italian (it). For example, if you want to choose Spanish, you can change the above line by
 
-    ```
     language="es"
-    ```
