@@ -3,6 +3,8 @@ A proxy generator for FFTCG cards
 
 This bash script generates a PDF file with Final Fantasy: Trading Card Game cards from a list in a text file. 
 
+Partially based on [FedericoHeichou](https://github.com/FedericoHeichou)'s [Yu-Gi-Oh! Proxy Generator](https://github.com/FedericoHeichou/ygo-proxy-generator).
+
 ## Requirements
 
 You must have installed a working LaTeX compiler. By default this script uses [Tectonic](https://tectonic-typesetting.github.io/en-US/). However, you can also use PDFLaTeX, which is part of the TeXLive package available for most Linux distributions.
@@ -47,3 +49,8 @@ If we wish to use the PDFLaTeX compiler instead of Tectonic, we replace those li
 
     # tectonic -o . tex/proxies.tex # Tectonic compiler
     pdflatex -output-directory . tex/proxies.tex # PDFLaTeX compiler
+
+## Donate!
+If you found this tool useful, you can always thank me by donating to the following Bitcoin address:
+
+	bc1qrcf7jmejlefpw5866l5qnhhczwj688wrqgx09j
