@@ -21,8 +21,6 @@ $ chmod +x generator.sh
 $ ./generator.sh sample_cardlist.txt
 ```
 
-1. The output file `proxies.pdf` will appear in the working directory.
-
 ## How to change the language
 
 By default the proxies will be generated in English. However, there are other languages available. In order to change it, you just have to edit the file `generator.sh` and change the line
