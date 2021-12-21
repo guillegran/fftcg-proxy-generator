@@ -36,14 +36,3 @@ By default the proxies will be generated in English. However, there are other la
 to your desired languages. Available options are English (eg), German (de), Spanish (es), French (fr) and Italian (it). For example, if you want to choose Spanish, you can change the above line by
 
     language="es"
-
-## How to change the LaTeX compiler
-Edit the file `generator.sh` by uncommenting (deleting `#` at the beginning of the line) the line for the desired compiler and commenting the rest of them. For example, by default we have the lines
-
-    tectonic -o . tex/proxies.tex # Tectonic compiler
-    # pdflatex -output-directory . tex/proxies.tex # PDFLaTeX compiler
-
-If we wish to use the PDFLaTeX compiler instead of Tectonic, we replace those lines by
-
-    # tectonic -o . tex/proxies.tex # Tectonic compiler
-    pdflatex -output-directory . tex/proxies.tex # PDFLaTeX compiler

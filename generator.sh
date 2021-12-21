@@ -37,4 +37,5 @@ function generate_tex() {
 download_images < "$cardlist"
 generate_tex < "$cardlist" > "tex/cards.tex"
 
-tectonic -o . tex/proxies.tex
+tectonic -o . tex/proxies.tex # Tectonic compiler
+# pdflatex -output-directory . tex/proxies.tex # PDFLaTeX compiler
