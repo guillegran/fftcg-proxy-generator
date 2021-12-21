@@ -4,7 +4,7 @@ cardlist=$1
 
 function download_images() {
 
-	language="fr" #Available languages: English (eg), German (de), Spanish (es), French (fr) and Italian (it).
+	language="eg" #Available languages: English (eg), German (de), Spanish (es), French (fr) and Italian (it).
 
 	while read card; do
 		url="https://fftcg.cdn.sewest.net/images/cards/full/$(echo "${card}")_$(echo "${language}").jpg"
