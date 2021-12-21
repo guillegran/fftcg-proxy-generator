@@ -31,6 +31,7 @@ By default the proxies will be generated in English. However, there are other la
     language="eg"
     ```
 to your desired languages. Available options are English (eg), German (de), Spanish (es), French (fr) and Italian (it). For example, if you want to choose Spanish, you can change the above line by
+
     ```
     language="es"
     ```
