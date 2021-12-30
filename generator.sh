@@ -34,6 +34,7 @@ function generate_tex() {
 
 }
 
+mkdir -p images
 download_images < "$cardlist"
 generate_tex < "$cardlist" > "tex/cards.tex"
 
